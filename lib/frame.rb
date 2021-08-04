@@ -1,5 +1,7 @@
 class Frame
 
+  require_relative 'score'
+
   attr_reader :frame_tally, :frame, :score
 
   def initialize(frame:)
